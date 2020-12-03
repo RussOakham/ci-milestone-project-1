@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation bar */
+
+.navbar {
+    background-color: #077787;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a {
+    color: #000000;
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+.navbar .active {
+    font-weight: bold;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #077787; 
+    }
+
+.dropdown-menu {
+    border: 1px solid #343a40;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #343a40;
+}
