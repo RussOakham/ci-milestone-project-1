@@ -55,14 +55,14 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    background-color: #ff5d50;
+    border-color: #ff5d50;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #9e1c00;
-    border-color: #9e1c00;
+    background-color: #dc1707;
+    border-color: #dc1707;
 }
