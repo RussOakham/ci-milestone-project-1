@@ -17,11 +17,20 @@
 
 		<!-- Navigation From Bootstrap-->
 		<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="logo-title d-none d-sm-block">
 			<a class="navbar-brand" href="#">
-				<img src="assets/images/paco-chilli.png" height="50" width="50" alt="Hot Chillis" loading="lazy">Paco's Wing Bar</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="assets/images/paco-chilli.png" height="50" width="50" alt="Hot Chillis" loading="lazy">Paco's Wing Bar
+            </a>
+            </div>
+            <div class="logo-no-title d-block d-sm-none">
+			<a class="navbar-brand" href="#">
+				<img src="assets/images/paco-chilli.png" height="50" width="50" alt="Hot Chillis" loading="lazy">
+            </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+            </button>
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
@@ -40,10 +49,16 @@
 								<a class="dropdown-item" href="menu.html">Menu</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="#">Download</a>
-							</div>
+							</div>  
 						</li>
+                        <li class="nav-item mr-2 d-block d-lg-none">
+                            <a href="/login" class="nav-link">Book A Table!</a>
+                        </li>
 					</ul>
 				</div>
+                <div class="d-none d-lg-block">
+                    <a href="/login" class="btn btn--cta btn--red">Book A Table!</a>
+                </div>
 		</nav>
 
 		<!-- End of Navigation -->

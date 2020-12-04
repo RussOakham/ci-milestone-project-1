@@ -44,3 +44,25 @@ body {
 .dropdown-divider {
     border-top: 1px solid #343a40;
 }
+
+/* Book a table Button */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #9e1c00;
+    border-color: #9e1c00;
+}
