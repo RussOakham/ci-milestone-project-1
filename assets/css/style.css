@@ -124,3 +124,27 @@ footer {
     background-color: #dc1707;
     border-color: #dc1707;
 }
+
+/* home-banner */
+
+.home-banner {
+    height: 70vh;
+    background: url("../images/table-restaurant.jpg") no-repeat top center fixed;
+    background-size: auto 70%;
+    -webkit-background-size: auto 70%;
+    -moz-background-size: auto 70%;
+    -o-background-size: auto 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
