@@ -140,6 +140,13 @@ footer {
 
 /* home-banner */
 
+.hero-container {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 .hero-banner {
     height: 70vh;
     background: url("../images/paco-hero-image.jpg") no-repeat center bottom scroll;
@@ -152,6 +159,19 @@ footer {
     justify-content: center;
     position: relative;
     overflow: hidden;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.05)
+    }
 }
 
 .opaque-overlay {
