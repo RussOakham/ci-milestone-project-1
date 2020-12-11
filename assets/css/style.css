@@ -176,6 +176,7 @@ footer {
     border-color: #dc1707;
 }
 
+/* Banners and Headers */
 /* home-banner */
 
 .hero-container {
@@ -232,6 +233,28 @@ footer {
     font-weight: bold;
     color: black;
     margin-bottom: 30px;
+}
+
+/* About Us Banner */
+
+.about-us-banner {
+    height: 35vh;
+    background: url("../images/clifton-suspension-bridge.jpg") no-repeat center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us-header {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
 }
 
 /* Customer Testimonials */
