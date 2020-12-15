@@ -380,3 +380,14 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+
+/* Menu */
+
+.menu-carousel {
+    padding: 0;
+}
+
+.carousel-inner {
+    height: 35vh;
+}
+
