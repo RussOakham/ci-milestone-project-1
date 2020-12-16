@@ -20,6 +20,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     margin: 10px 20px 20px 20px;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .section-header h2 {
@@ -46,6 +47,8 @@ body {
     border: 2px solid black;
     margin: 0 20px 20px 20px;
     position: relative;
+    border-radius: .25rem;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .fixed-height-box-245px {
@@ -126,6 +129,7 @@ footer {
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+  box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .social-links li a i:hover {
@@ -187,6 +191,7 @@ footer {
     color: white;
     background-color: #ff5d50;
     border-color: #ff5d50;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .btn--red:hover,
@@ -219,6 +224,7 @@ footer {
     justify-content: center;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -248,6 +254,7 @@ footer {
     background-color: rgba(255,200,80,0.7);
     border-radius: 25px;
     padding: 10px;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .hero-header {
@@ -332,6 +339,8 @@ footer {
     position: relative;
     top: -10px;
     height: 0;
+    border-radius: .25rem;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .google-map iframe{
@@ -346,6 +355,8 @@ footer {
 
 .team-card {
     margin-top: 35%;
+    border-radius: .25rem;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .team-profile-image {
@@ -391,3 +402,10 @@ footer {
     height: 35vh;
 }
 
+.list-group > .list-group-item {
+    background-color: #FFC850;
+}
+
+.menu-card {
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
+}
