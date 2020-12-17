@@ -414,3 +414,30 @@ footer {
 .menu-card:hover {
     transform: scale(1.05);
 }
+
+/* Reservation Page */
+
+.reservation-banner {
+    height: 35vh;
+    background: url("../images/park-street.jpg") no-repeat center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.reservation-form {
+    padding: 20px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.submit-button {
+    text-align: center;
+}
