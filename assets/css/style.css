@@ -408,4 +408,9 @@ footer {
 
 .menu-card {
     box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
+    transition: transform .2s;
+}
+
+.menu-card:hover {
+    transform: scale(1.05);
 }
