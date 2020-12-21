@@ -9,6 +9,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #3BA5B4;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 /* Headings */
@@ -45,14 +48,19 @@ body {
 .yellow-content-box {
     background-color: #FFC850;
     border: 2px solid black;
-    margin: 0 20px 20px 20px;
+    margin-bottom: 20px;
     position: relative;
     border-radius: .25rem;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
+    padding: 10px 30px 10px 30px;
 }
 
-.fixed-height-box-245px {
-    height: 245px;
+.fixed-height-box-240px {
+    min-height: 240px;
+}
+
+.fixed-height-box-260px {
+    min-height: 260px;
 }
 
 .yellow-content-box h3 {
@@ -289,7 +297,6 @@ footer {
 
 .testimonial {
     text-align: justify;
-    padding: 10px 30px 0 30px;
 }
 
 /* Our Location */
@@ -335,7 +342,7 @@ footer {
     border: 2px solid black;
     padding: 0;
     overflow: hidden;
-    padding-bottom: 240px;
+    padding-bottom: 257px;
     position: relative;
     top: -10px;
     height: 0;
@@ -351,7 +358,32 @@ footer {
     position: absolute;
 }
 
+/* Video Embed */
+.video-embed {
+    border: 2px solid black;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 240px;
+    position: relative;
+    top: -10px;
+    height: 0;
+    border-radius: .25rem;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
+}
+
+.video-embed iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 /* Our Team */
+
+.about-pacos {
+    text-align: justify;
+}
 
 .team-card {
     margin-top: 35%;
@@ -416,6 +448,10 @@ footer {
 }
 
 /* Reservation Page */
+
+.viewport-35 {
+    height: 35vh;
+}
 
 .reservation-banner {
     height: 35vh;
