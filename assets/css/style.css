@@ -9,9 +9,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #3BA5B4;
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
 }
 
 #main-content {
