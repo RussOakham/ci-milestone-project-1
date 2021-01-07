@@ -156,6 +156,8 @@ footer {
 
 .footer-details {
   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-details ul {
@@ -450,6 +452,10 @@ footer {
 .card-subtitle {
     text-align: center;
     font-weight: bold;
+}
+
+.card p {
+    padding: 0 10px;
 }
 
 /* Menu */
