@@ -232,6 +232,7 @@ footer {
     width: 100%;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .hero-banner {
@@ -301,6 +302,7 @@ footer {
     justify-content: center;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .about-us-header {
@@ -309,25 +311,6 @@ footer {
     margin-bottom: 0;
 }
 
-.menu-banner {
-    height: 35vh;
-    background: url("../images/buffalo-wings-2900x1600.jpg") no-repeat center scroll;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.menu-header {
-    font-weight: bold;
-    color: black;
-    margin-bottom: 0;
-}
 
 /* Customer Testimonials */
 
@@ -462,6 +445,26 @@ footer {
 }
 
 /* Menu */
+.menu-banner {
+    height: 35vh;
+    background: url("../images/buffalo-wings-2900x1600.jpg") no-repeat center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
+}
+
+.menu-header {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+}
 
 .list-group > .list-group-item {
     background-color: #FFC850;
@@ -477,6 +480,14 @@ footer {
 
 .menu-card:hover {
     transform: scale(1.05);
+}
+
+.card-img, .card-img-top {
+    border-bottom: 2px solid black;
+}
+
+.card-body {
+    padding: 0.8rem 1.25rem 1.25rem 1.25rem;
 }
 
 /* Reservation Page */
@@ -497,6 +508,7 @@ footer {
     justify-content: center;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .reservation-form {
