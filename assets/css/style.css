@@ -54,6 +54,7 @@ body {
     border-radius: .25rem;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
     padding: 10px 30px 10px 30px;
+    min-height: 250px;
 }
 
 .fixed-height-box-220px {
@@ -169,6 +170,7 @@ footer {
 .navbar {
     background-color: #077787;
     font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
 }
 
 .navbar a {
@@ -393,7 +395,7 @@ footer {
     border: 2px solid black;
     padding: 0;
     overflow: hidden;
-    padding-bottom: 240px;
+    padding-bottom: 250px;
     position: relative;
     top: -10px;
     height: 0;
@@ -416,6 +418,12 @@ footer {
 }
 
 .team-card {
+    background-color: #FFC850;
+    border: 2px solid black;
+    min-height: 250px;
+    background-color: #FFC850;
+    border: 2px solid black;
+    min-height: 250px;
     margin-top: 35%;
     border-radius: .25rem;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
@@ -437,11 +445,6 @@ footer {
     text-align: center;
     justify-content: center;
     padding: 10px 10px;
-}
-
-.card {
-    background-color: #FFC850;
-    border: 2px solid black;
 }
 
 .card-title {
@@ -467,6 +470,9 @@ footer {
 .menu-card {
     box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
     transition: transform .2s;
+    background-color: #FFC850;
+    border: 2px solid black;
+    min-height: 430px;
 }
 
 .menu-card:hover {
@@ -502,4 +508,62 @@ footer {
 
 .submit-button {
     text-align: center;
+}
+
+/* Media Queries */
+/* Yellow Content Boxes */
+@media (max-width: 1199.98px) { 
+    .yellow-content-box {
+        min-height: 300px;
+    }
+ }
+
+ @media (max-width: 991.98px) { 
+    .yellow-content-box {
+        min-height: 270px;
+    }
+ }
+
+  @media (max-width: 767.98px) { 
+    .yellow-content-box {
+        min-height: auto;
+    }
+ }
+
+ /* Team Cards */
+ @media (max-width: 1199.98px) { 
+    .team-card {
+        min-height: 420px;
+    }
+ }
+
+ @media (max-width: 991.98px) { 
+    .team-card {
+        min-height: 370px;
+    }
+ }
+
+  @media (max-width: 767.98px) { 
+    .team-card {
+        min-height: auto;
+    }
+ }
+
+ /* Menu Cards */
+ @media (max-width: 1199.98px) { 
+    .menu-card {
+        min-height: 410px;
+    }
+ }
+
+ @media (max-width: 991.98px) { 
+    .menu-card {
+        min-height: 430px;
+    }
+ }
+
+  @media (max-width: 767.98px) { 
+    .menu-card {
+        min-height: auto;
+    }
 }
