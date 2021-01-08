@@ -403,6 +403,11 @@ footer {
     margin-top: 35%;
     border-radius: .25rem;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
+
+}
+
+.pt-3, .py-3 >.team-card {
+    padding-top: 0rem!important;
 }
 
 .team-profile-image {
@@ -572,3 +577,10 @@ footer {
         min-height: auto;
     }
 }
+
+/* Google Map */
+ @media (max-width: 1199.98px) { 
+    .google-map {
+        padding-bottom: 297px;
+    }
+ }
