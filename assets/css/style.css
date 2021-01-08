@@ -201,6 +201,20 @@ footer {
     border-top: 1px solid #343a40;
 }
 
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    color: black;
+    font-weight: bold;
+    background-color: #077787;
+}
+
+
 /* Book a table Button */
 
 .btn--cta {
