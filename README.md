@@ -1,45 +1,89 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone 1 - Paco’s Wing Bar - by Russell Oakham
 
-Welcome RussOakham,
+## Project overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The project is a small website for a restaurant based in Bristol. The main purpose would be to get people interested in booking a reservation at the restaurant. The website promotes that the restaurant is a small independant business, whose menu is inspired by international street food. 
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Overview of UX decisions, structure etc. Examples of websites I have viewed as part of research & UX decisions from it.
 
-`python3 -m http.server`
+### User Stories
 
-A blue button should appear to click: *Make Public*,
+This section provides insight into the UX process, focusing on who this website is for, what it is that they want to achieve and how this project is the best way to help them achieve these things.
 
-Another blue button should appear to click: *Open Browser*.
+Visitors to this website are searching for:
+ - Restaurants in Bristol, specialising in chicken wings and burgers.
+ - Restaurants in Bristol, run independently.
+ - Restaurants in Bristol, with an upbeat atmosphere.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ ## Strategy
+The main goals of the website:
 
-A blue button should appear to click: *Make Public*,
+### Scope
+This section determines what the users should be able to do on the website.
 
-Another blue button should appear to click: *Open Browser*.
+### Structure
+At this point I started thinking about what information, pages, features, and calls to action were to necessary and how they would be grouped.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Skeleton
+At this point I began creating proper wireframes, considering how the User will navigate through the site, what content has priority, and interelation of content.
 
-## Updates Since The Instructional Video
+### Surface
+This is the sensory design section of a website, or how it looks, feels and sounds. I wanted the design to be clean and the colour scheme to be light and refreshing. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Colour
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Language/Tone 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Styling Considerations
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+JQuery
+The project uses JQuery to simplify DOM manipulation.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Features
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Exisiting Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Features to consider implementing in future.
+ - Another feature idea
 
---------
+## Testing
 
-Happy coding!
+### Validation
+
+#### W3 HTML
+
+#### W3 CSS 
+
+#### Browser & Device Testing
+
+## Deployment
+
+### Github Pages
+
+## Issues I had to overcome
+
+## Credits
+
+### Design and research
+The following sites are websites that I used for reference and inspiration:
+
+### Technical
+The following sites are websites I used to assist in solving technical issues:
+
+### Content
+
+The text for section Y was copied from the Wikipedia article Z
+
+### Media
+
+The photos used in this site were obtained from ...
+
+### Acknowledgements
+
+I received inspiration for this project from X
