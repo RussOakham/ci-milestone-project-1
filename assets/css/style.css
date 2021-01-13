@@ -529,14 +529,15 @@ footer h5 {
 
 /* Reservation Modal */
 .modal-content {
-    background-color: #FFC850;
+    background-color: #fffced;
     border: 2px solid black;
-    box-shadow: 0 0.rem 0.5rem 0 rgba(0,0,0,.4);
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0,0,0,.4);
 }
 
 .modal-header {
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid black;
+    background-color: #ffc850;
 }
 
 .modal-footer {
@@ -549,6 +550,7 @@ footer h5 {
 
 .modal-body {
     text-align: center;
+    font-weight: 500;
 }
 
 
