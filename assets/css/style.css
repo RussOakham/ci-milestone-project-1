@@ -528,9 +528,19 @@ footer h5 {
 }
 
 /* Reservation Modal */
+.modal-content {
+    background-color: #FFC850;
+    border: 2px solid black;
+    box-shadow: 0 0.rem 0.5rem 0 rgba(0,0,0,.4);
+}
+
 .modal-header {
     text-transform: uppercase;
-    color: #ff5d50;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(0,0,0,0.5);
 }
 
 .modal-title {
