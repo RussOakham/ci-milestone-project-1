@@ -109,33 +109,35 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputFirstName">First Name</label>
-                                <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                                <input type="text" class="form-control" id="inputFirstName" placeholder="First Name"
+                                    required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputLastName">Last Name</label>
-                                <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                                <input type="text" class="form-control" id="inputLastName" placeholder="Last Name"
+                                    required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputPhoneNumber">Phone Number</label>
-                                <input type="tel" class="form-control" id="inputTelephone" pattern="[0-9]{5} [0-9]{6}"
-                                    placeholder="Phone Number">
+                                <input type="tel" class="form-control" id="inputTelephone" pattern="[0-9]{5}[0-9]{6}"
+                                    placeholder="Phone Number" required>
                             </div>
                         </div>
                         <h3>Make a Booking</h3>
                         <div class="form-row justify-content-center">
                             <div class="form-group col-md-5">
                                 <label for="inputDate">Booking Date</label>
-                                <input type="date" class="form-control" id="inputDate">
+                                <input type="date" class="form-control" id="inputDate" required>
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="inputTime">Time</label>
-                                <select class="form-control" id="inputTime">
+                                <select class="form-control" id="inputTime" required>
                                     <option value="12:00:00">12:00</option>
                                     <option value="12:30:00">12:30</option>
                                     <option value="13:00:00">13:00</option>
@@ -159,7 +161,7 @@
                             </div>
                             <div class="form-group col-md-3">
                                 <label for="inputGuests">Guests</label>
-                                <select class="form-control" id="inputGuests">
+                                <select class="form-control" id="inputGuests" required>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="13:00:00">3</option>
@@ -175,7 +177,7 @@
                                     placeholder="Special Occasion, Dietary Requirements etc."></textarea>
                             </div>
                             <div class="submit-button">
-                                <button type="submit" class="btn btn--red">Submit</button>
+                                <button type="submit" class="btn btn--red" data-toggle="modal" data-target="#contactModal">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -255,6 +257,27 @@
         </div>
 
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thank you for submitting a request</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Please check your e-mail inbox for booking confirmation.</p>
+                    <p><i>Please Note: This form is not yet functional.</i></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn--red" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JS Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"

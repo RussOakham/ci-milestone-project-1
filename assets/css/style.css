@@ -6,7 +6,6 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #3BA5B4;
 }
@@ -16,6 +15,11 @@ body {
 }
 
 /* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
 
 .section-header {
     background-color: #f5f5f5;
@@ -100,6 +104,10 @@ footer {
   margin: 20px 0 0 0;
 }
 
+footer h5 {
+    font-size: 1rem;
+}
+
 .contact-us a {
     text-decoration: none;
     color: #fafafa;
@@ -138,6 +146,7 @@ footer {
   width: 32px;
   height: 32px;
   padding: 12px 0;
+  margin-bottom: 0.5rem;
   border-radius: 50%;
   font-size: 13px;
   line-height: 7px;
@@ -517,6 +526,21 @@ footer {
 .submit-button {
     text-align: center;
 }
+
+/* Reservation Modal */
+.modal-header {
+    text-transform: uppercase;
+    color: #ff5d50;
+}
+
+.modal-title {
+    font-size: 1rem;
+}
+
+.modal-body {
+    text-align: center;
+}
+
 
 /* Media Queries */
 /* Yellow Content Boxes */
