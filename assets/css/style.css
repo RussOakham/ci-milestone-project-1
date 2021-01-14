@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: .25rem;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.4);
     padding: 10px 30px 10px 30px;
-    min-height: 250px;
+    min-height: 270px;
 }
 
 .fixed-height-box-220px {
@@ -379,7 +379,7 @@ footer h5 {
     border: 2px solid black;
     padding: 0;
     overflow: hidden;
-    padding-bottom: 257px;
+    padding-bottom: 267px;
     position: relative;
     top: -10px;
     height: 0;
