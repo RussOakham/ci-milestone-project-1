@@ -8,6 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #3BA5B4;
+    font-weight: 500;
 }
 
 #main-content {
@@ -398,7 +399,7 @@ footer h5 {
 /* Our Team */
 
 .about-pacos {
-    text-align: justify;
+    text-align: center;
 }
 
 .team-card {
