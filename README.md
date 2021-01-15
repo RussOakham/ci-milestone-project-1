@@ -10,7 +10,11 @@ Overview of UX decisions, structure etc. Examples of websites I have viewed as p
 
 ### User Stories
 
-This section provides insight into the UX process, focusing on who this website is for, what it is that they want to achieve and how this project is the best way to help them achieve these things.
+## Ideal Client
+The websites ideal client would be:
+ - English speaking.
+ - Have disposable income for eating out.
+ - Individual with a keen interest in modern street food.
 
 Visitors to this website are searching for:
  - Restaurants in Bristol, specialising in chicken wings and burgers.
@@ -22,6 +26,8 @@ The main goals of the website are:
 
  1. To entice potential customers to book a table reservation with the restaurant. Via either submitting of a booking request via the online form or contacting the restaurant via phone or e-mail.
  2. To raise brand awareness of the restaurant, to entice potential customers to visit teh restaurant without a reservation i.e. 'promote walk-ins'.
+ 3. To allow returning visitors to quickly navigate to Contact Details and Booking pages.
+ 4. To allow potential and returning customers easy navigation to the menu page, allowing the quick perusal of products offered.
 
 ### Scope
 This section determines what the users should be able to do on the website.
@@ -98,6 +104,7 @@ Before beginning development, I listed some styling ideas that I felt benefit th
 5. Google Fonts
 6. TinyPNG & TinyJPG: To minimise image file sizes and maximise page load speed.
 7. [ResizePixel](https://www.resizepixel.com/) - To manipulate image size and dimensions.
+8. [Real Favicon Generator](https://realfavicongenerator.net/) to generate favicons and icons for desktop and mobile usage.
 
 ## Features
 This section describes how user achiage what they need interacting with the website;
@@ -116,7 +123,7 @@ This section describes how user achiage what they need interacting with the webs
  - Booking Form: Provide different booking times across weekends/weekdays to allow varied opening times.
  - Video(s): Video promoting the restaurant, including short interviews with team members and clips of the restuarant during service.
  - Blog: Blog posts to promote seasonal items and changes to the menu.
- - Embeded Ratings: Tripadvisor and Google star ratigns embedded on home page to further promote website brand.
+ - Embedded Ratings: Tripadvisor and Google star ratigns embedded on home page to further promote website brand.
 
 ## Testing
 
