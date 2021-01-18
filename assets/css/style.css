@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 10px 20px 20px 20px;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .section-header h2 {
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
     position: relative;
     border-radius: 5px;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     padding: 10px 30px 10px 30px;
     min-height: 270px;
 }
@@ -159,7 +159,7 @@ footer h5 {
   -moz-transition: background-color 0.35s ease-in-out;
   -webkit-transition: background-color 0.35s ease-in-out;
   -o-transition: background-color 0.35s ease-in-out;
-  box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+  box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .social-links li a i:hover {
@@ -181,7 +181,7 @@ footer h5 {
 .navbar {
     background-color: #077787;
     font-family: 'Montserrat', sans-serif;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .navbar a {
@@ -230,7 +230,7 @@ footer h5 {
 
 .btn--cta {
     font-weight: 800;
-    border-radius: 23px;
+    border-radius: 25px;
     width: 160px;
 }
 
@@ -238,7 +238,7 @@ footer h5 {
     color: white;
     background-color: #ff5d50;
     border-color: #ff5d50;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .btn--red:hover,
@@ -257,7 +257,7 @@ footer h5 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .hero-banner {
@@ -272,7 +272,7 @@ footer h5 {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -302,7 +302,7 @@ footer h5 {
     background-color: rgba(255,200,80,0.7);
     border-radius: 25px;
     padding: 10px;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .hero-header {
@@ -326,7 +326,7 @@ footer h5 {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .about-us-header {
@@ -386,7 +386,7 @@ footer h5 {
     top: -10px;
     height: 0;
     border-radius: 5px;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .google-map iframe{
@@ -411,7 +411,7 @@ footer h5 {
     min-height: 370px;
     margin-top: 35%;
     border-radius: 5px;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .pt-3, .py-3 >.team-card {
@@ -457,7 +457,7 @@ footer h5 {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .menu-header {
@@ -471,7 +471,7 @@ footer h5 {
 }
 
 .menu-card {
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     transition: .3s;
     background-color: #FFC850;
     border: 2px solid black;
@@ -508,7 +508,7 @@ footer h5 {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .reservation-form {
@@ -526,7 +526,7 @@ footer h5 {
 .modal-content {
     background-color: #fffced;
     border: 2px solid black;
-    box-shadow: 0px 8px 8px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .modal-header {
@@ -591,7 +591,7 @@ footer h5 {
  /* Menu Cards */
  @media (max-width: 1199.98px) { 
     .menu-card {
-        min-height: 410px;
+        min-height: 455px;
     }
  }
 
