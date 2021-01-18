@@ -8,6 +8,8 @@ The project is a small website for a restaurant based in Bristol. The main purpo
 
 Overview of UX decisions, structure etc. Examples of websites I have viewed as part of research & UX decisions from it.
 
+![Responsive demo](developer-resources/testing/responsive-demo.png)
+
 ### User Stories
 
 ## Ideal Client
