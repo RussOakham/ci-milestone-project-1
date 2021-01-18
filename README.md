@@ -4,11 +4,11 @@
 
 The project is a small website for a restaurant based in Bristol. The main purpose would be to get people interested in booking a reservation at the restaurant. The website promotes that the restaurant is a small independant business, whose menu is inspired by international street food. 
 
+![Responsive demo](developer-resources/testing/responsive-demo.PNG "Responsive demo")
+
 ## UX
 
 Overview of UX decisions, structure etc. Examples of websites I have viewed as part of research & UX decisions from it.
-
-![Responsive demo](developer-resources/testing/responsive-demo.png)
 
 ### User Stories
 
@@ -101,12 +101,13 @@ Before beginning development, I listed some styling ideas that I felt benefit th
 ## Technologies Used
 1. HTML
 2. CSS
-3. Bootstrap CSS Framework
-4. Font Awesome
-5. Google Fonts
-6. TinyPNG & TinyJPG: To minimise image file sizes and maximise page load speed.
+3. [Bootstrap CSS Framework](https://getbootstrap.com/)
+4. [Font Awesome](https://fontawesome.com/)
+5. [Google Fonts](https://fonts.google.com/)
+6. [TinyPNG](https://tinypng.com/) & [TinyJPG](https://tinyjpg.com/): To minimise image file sizes and maximise page load speed.
 7. [ResizePixel](https://www.resizepixel.com/) - To manipulate image size and dimensions.
 8. [Real Favicon Generator](https://realfavicongenerator.net/) to generate favicons and icons for desktop and mobile usage.
+9. [Am I Responsive?](http://ami.responsivedesign.is/) used for responsive design demo in ReadMe summary.
 
 ## Features
 This section describes how user achiage what they need interacting with the website;
@@ -132,6 +133,14 @@ This section describes how user achiage what they need interacting with the webs
 ### Validation
 
 #### W3 HTML
+I validated the HTML with [W3 Validation Service](https://validator.w3.org/). The results can be seen below;
+ - [index](developer-resources/testing/html/before/home.png)
+ - [about us](developer-resources/testing/html/before/about-us.png)
+ - [menu](developer-resources/testing/html/before/menu.png)
+ - [reservation](developer-resources/testing/html/before/reservation.png)
+
+ **Errors**
+ The reservation form section showed an error at first, this is because as the option is marked as "required", as the first option must either have an empty 'value' attrivute or have no text content. The fix to this is to disable the first option.
 
 #### W3 CSS 
 
