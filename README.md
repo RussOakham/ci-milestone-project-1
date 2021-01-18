@@ -140,9 +140,21 @@ I validated the HTML with [W3 Validation Service](https://validator.w3.org/). Th
  - [reservation](developer-resources/testing/html/before/reservation.png)
 
  **Errors**
- The reservation form section showed an error at first, this is because as the option is marked as "required", as the first option must either have an empty 'value' attrivute or have no text content. The fix to this is to disable the first option.
+ The reservation form section showed an error at first, this is because as the option is marked as "required", as the first option must either have an empty 'value' attrivute or have no text content. The fix to this is to add a 'disabled value' showing placeholder text.
+
+ **Warnings**
+ All pages showed warnings regarding HTML semantics and use of H1's and H2-6's in sections, however upon review I am happy that all headings are relevant and each page has a relevant unique H1. So I decided to enact any changes. 
 
 #### W3 CSS 
+I also validated the CSS with the [w3 Validation Service] and it found no errors.
+
+Screenshots for Final Validations passes can be seen below;
+ - HTML:
+    - [index](developer-resources/testing/html/after/index.png)
+    - [about us](developer-resources/testing/html/after/about.png)
+    - [menu](developer-resources/testing/html/after/menu.png)
+    - [reservation](developer-resources/testing/html/after/reservation.png)
+ - CSS: [style.css](developer-resources/testing/css/css-validation.png)
 
 #### Browser & Device Testing
 
