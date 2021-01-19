@@ -262,7 +262,7 @@ footer h5 {
 
 .hero-banner {
     height: 70vh;
-    background: url("../images/paco-hero-image.jpg") no-repeat center bottom scroll;
+    background: url("../images/paco-hero-image.webp") no-repeat center bottom scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -316,7 +316,7 @@ footer h5 {
 
 .about-us-banner {
     height: 35vh;
-    background: url("../images/clifton-suspension-bridge.jpg") no-repeat center scroll;
+    background: url("../images/clifton-suspension-bridge.webp") no-repeat center scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -447,7 +447,7 @@ footer h5 {
 /* Menu */
 .menu-banner {
     height: 35vh;
-    background: url("../images/buffalo-wings-2900x1600.jpg") no-repeat center scroll;
+    background: url("../images/buffalo-wings-2900x1600.webp") no-repeat center scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -498,7 +498,7 @@ footer h5 {
 
 .reservation-banner {
     height: 35vh;
-    background: url("../images/park-street.jpg") no-repeat center scroll;
+    background: url("../images/park-street.webp") no-repeat center scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
