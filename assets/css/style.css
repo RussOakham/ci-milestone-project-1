@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -613,3 +613,16 @@ footer h5 {
         padding-bottom: 297px;
     }
  }
+
+
+ /* Extra Small Screen (Galaxy Fold) */
+@media (max-width: 575.98px) { 
+    .yellow-content-box {
+        padding: 10px 20px;
+    }
+    
+    .opening-hours-table th {
+    padding: 0 0;
+}
+ }
+

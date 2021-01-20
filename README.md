@@ -134,10 +134,10 @@ This section describes how user achiage what they need interacting with the webs
 
 #### W3 HTML
 I validated the HTML with [W3 Validation Service](https://validator.w3.org/). The results can be seen below;
- - [index](developer-resources/testing/html/before/home.png)
- - [about us](developer-resources/testing/html/before/about-us.png)
- - [menu](developer-resources/testing/html/before/menu.png)
- - [reservation](developer-resources/testing/html/before/reservation.png)
+ - [index](design-resources/testing/HTML/before/home.PNG)
+ - [about us](design-resources/testing/HTML/before/about-us.PNG)
+ - [menu](design-resources/testing/HTML/before/menu.PNG)
+ - [reservation](design-resources/testing/HTML/before/reservation.PNG)
 
  **Errors**
  The reservation form section showed an error at first, this is because as the option is marked as "required", as the first option must either have an empty 'value' attrivute or have no text content. The fix to this is to add a 'disabled value' showing placeholder text.
@@ -150,13 +150,46 @@ I also validated the CSS with the [w3 Validation Service] and it found no errors
 
 Screenshots for Final Validations passes can be seen below;
  - HTML:
-    - [index](developer-resources/testing/html/after/index.png)
-    - [about us](developer-resources/testing/html/after/about.png)
-    - [menu](developer-resources/testing/html/after/menu.png)
-    - [reservation](developer-resources/testing/html/after/reservation.png)
- - CSS: [style.css](developer-resources/testing/css/css-validation.png)
+    - [index](design-resources/testing/HTML/after/index.PNG)
+    - [about us](design-resources/testing/HTML/after/about.PNG)
+    - [menu](design-resources/testing/HTML/AFTER/menu.PNG)
+    - [reservation](design-resources/testing/HTML/after/reservation.PNG)
+ - CSS: [style.css](design-resources/testing/CSS/css-validation.PNG)
+
+#### Google Lighthouse Audit
+I used Google's lighthouse audit to test the website conforms possitively with Googles performance metrics, with the aim for achieving scores of 90 in all areas on desktop.
+
+After intial testing, the performance metric was below 90, while Accessibility, Best Practices and SEO were low 90's. To improve this i carried out the below actions;
+
+**Performance** - Converted all images from .jpg to .webP, which offers improved compression and therefore quicker loading times. I used the website [caniuse](https://caniuse.com/webp), to ensure webp is compliant with all major web browsers, which is is.
+
+**Accessibility** - Added rel="noopener" and rel="noreferrer" to social media links in footer, to avoid passing of any site information to external sites.
+
+**Best Practices** - Added a 'title' to google map iframe, for improved symantics.
+
+**SEO** - Added meta descriptions for all pages providing an overview of page content and intent.
+
+These changes improved all metrics to the below passing scores;
+
+![Google Lighthouse Audit Score](design-resources/testing/google-lighthouse-audit.PNG)
 
 #### Browser & Device Testing
+Using the Google Devtools, I tested the website through the following viewports;
+
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Duo
+- Galaxy Fold
+
+The only issued i found was some issues on Galaxy fold, where the extra thin viewport caused issues with content visuals and overflowing boxes. To rectify this I included an an additional media query to reduce padding of yellow content boxes to 20px left and right, and remove column padding in the opening hours table.
 
 ## Deployment
 
