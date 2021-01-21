@@ -243,18 +243,66 @@ Alternatively, I'd advise the client to partner with a third party provider who 
 
 ### Design and research
 The following sites are websites that I used for reference and inspiration:
+The following are sites I used for reference and inspiration:
+- [Burger Theory](https://burgertheory.co.uk/)
+- [Backyard Chicken Company](https://www.backyardchicken.co.uk/)
+- [Randy's Wing Bar](https://randyswingbar.co.uk/)
+- Colour Selection
+    - 99 designs [https://99designs.ie/blog/tips/how-color-impacts-emotions-and-behaviors/]
+- Menu Card Format
+    - [Nandos](https://www.nandos.co.uk/food/menu/index.html)
+in solving technical issues:
+- Team Card Format: [Kevin Bourke Milestone 1](https://bourkekev.github.io/ms1-music-school/about.html)
 
 ### Technical
 The following sites are websites I used to assist in solving technical issues:
+- Google Map Embed: [Google Developers](https://developers.google.com/maps/documentation/embed/get-started)
+- [Real Favicon Generator](https://realfavicongenerator.net/): For generation of Favicon icons and code.
+- [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/introduction/): For guidance on Bootstrap use and adaptations.
+- [CSS-Tricks](https://css-tricks.com/): For implementing CSS effects such as box-shadow.
+- [w3Schools](https://www.w3schools.com/): For checking proper syntax of HTML and CSS elements. 
+- [Autoprefixer] - For generation CSS browser prefixes.
 
 ### Content
-
-The text for section Y was copied from the Wikipedia article Z
+All text content on the site was written originally by myself, with the below notes;
+- **Customer Testimonals** - Inspired and adapted from [Tripadvisor](https://www.tripadvisor.co.uk/) reviews of various restaurants.
+- **About Us** - Adapted from [Burger Theory](https://burgertheory.co.uk/##burgers) about us content.
+- **Menu** - Inspired and adapted from items on following restaurant menus;
+    - [Burger Theory](https://burgertheory.co.uk/)
+    - [Backyard Chicken Company](https://www.backyardchicken.co.uk/)
+    - [Randy's Wing Bar](https://randyswingbar.co.uk/)
 
 ### Media
-
-The photos used in this site were obtained from ...
+The photos and images used for this site were obtained from;
+ - **[Canva](https://www.canva.com/)**:
+    - Menu Template (Vernon Street)
+    - Logo image.
+- **[Shutterstock](https://www.shutterstock.com/)**: From the following Photographers
+    - Madrugada Verde
+    - Sion Hunnuna
+    - Cabeca de Marmore
+    - StockCreations
+    - Olga Moroz
+    - DronG
+    - Hakin Mhan
+**[Unsplash](https://unsplash.com/)**: From the following Photographers
+    - Alex Motoc
+    - Louis Hansel
+    - Jennifer Burk
+    - Sheri Silver
+    - Jarritos Mexican Soda
+    - Proriat Hospitality
+    - Klara Kulikova
+    - Artharva Tulsi
+    - Natalie Vojsner
+    - Julia Joppien
+    - Fabien Zakaria
+    - Vince Fleming
+    - Mario: @wondermario
+    - Timothy Barlin
 
 ### Acknowledgements
 
-I received inspiration for this project from X
+ - Thanks to my mentors Anthony Ngene and xxx for their suggestions, time and support.
+ - Thanks to those on Slack for reviewing my project and making suggestions:
+ - Thanks to my housemates and friends for reviewing the project in their own times.
