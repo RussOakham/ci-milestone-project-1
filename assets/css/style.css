@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: bold;
     margin: 10px 20px 20px 20px;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -58,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
     position: relative;
     border-radius: 5px;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     padding: 10px 30px 10px 30px;
     min-height: 270px;
@@ -115,10 +117,10 @@ footer h5 {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    transition: color 0.35s ease-in-out;
     -moz-transition: color 0.35s ease-in-out;
     -webkit-transition: color 0.35s ease-in-out;
     -o-transition: color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out;
 }
 
 .contact-us a:hover {
@@ -130,10 +132,10 @@ footer h5 {
   color: #fafafa;
   text-align: center;
   padding-left: 5px;
-  transition: color 0.35s ease-in-out;
   -moz-transition: color 0.35s ease-in-out;
   -webkit-transition: color 0.35s ease-in-out;
   -o-transition: color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out;
 }
 
 .booking-icon i:hover {
@@ -155,10 +157,11 @@ footer h5 {
   text-align: center;
   color: #fafafa;
   background: #077787;
-  transition: background-color 0.35s ease-in-out;
   -moz-transition: background-color 0.35s ease-in-out;
   -webkit-transition: background-color 0.35s ease-in-out;
   -o-transition: background-color 0.35s ease-in-out;
+  transition: background-color 0.35s ease-in-out;
+  -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
   box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -181,6 +184,7 @@ footer h5 {
 .navbar {
     background-color: #077787;
     font-family: 'Montserrat', sans-serif;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -238,6 +242,7 @@ footer h5 {
     color: white;
     background-color: #ff5d50;
     border-color: #ff5d50;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -257,6 +262,7 @@ footer h5 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -267,23 +273,46 @@ footer h5 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;  
     justify-content: center;
     position: relative;
     overflow: hidden;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
-
+    
+    -webkit-animation-name: hero-zoom;
     animation-name: hero-zoom;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes hero-zoom {
+    from {
+        -webkit-transform: scale(1);
+                transform: scale(1)
+    }
+    to {
+        -webkit-transform: scale(1.05);
+                transform: scale(1.05)
+    }
 }
 
 @keyframes hero-zoom {
     from {
+        -webkit-transform: scale(1);
         transform: scale(1)
     }
     to {
+        -webkit-transform: scale(1.05);
         transform: scale(1.05)
     }
 }
@@ -303,6 +332,7 @@ footer h5 {
     border-radius: 25px;
     padding: 10px;
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
 .hero-header {
@@ -317,15 +347,22 @@ footer h5 {
 .about-us-banner {
     height: 35vh;
     background: url("../images/clifton-suspension-bridge.webp") no-repeat center scroll;
-    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -386,6 +423,7 @@ footer h5 {
     top: -10px;
     height: 0;
     border-radius: 5px;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -409,6 +447,7 @@ footer h5 {
     min-height: 370px;
     margin-top: 35%;
     border-radius: 5px;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -454,11 +493,18 @@ footer h5 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -473,6 +519,7 @@ footer h5 {
 }
 
 .menu-card {
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     transition: .3s;
     background-color: #FFC850;
@@ -481,6 +528,8 @@ footer h5 {
 }
 
 .menu-card:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
 
@@ -505,11 +554,18 @@ footer h5 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
@@ -528,6 +584,7 @@ footer h5 {
 .modal-content {
     background-color: #fffced;
     border: 2px solid black;
+    -webkit-box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
     box-shadow: 0px 0.4rem 0.4rem 0px rgba(0,0,0,.4);
 }
 
