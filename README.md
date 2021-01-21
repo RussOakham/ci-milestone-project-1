@@ -234,6 +234,8 @@ To ensure i clean look, I wanted to ensure all elements were uniform in size. To
 - **Favicons**: I used [Real Favicon Generator](https://realfavicongenerator.net/) to create favicon images, for use across windows, iOS and android based devices.
 The generator does advise the files be placed directly into the website root, however for file cleanliness I decided to place these in a [sub-directory](assets/images/favicons). After testing, it appears to not have caused an issue for favicons to be working correctly.
 
+- **Team Card Images**: The images on the team card would stretch vertically when viewed on a thin screened device, such as my iPhone XR. This is because the images were under the "card" classes 'display: flex' and 'flex-direction: column" rules. To rectify this, I wrapped the images in their own div and use this as my styling class for the images. 
+
 ## Issues still to overcome
 - **Online Reservation Form**: Currently the form allows booking for the restaurants static open hours of 12pm-10pm Monday-Sunday. However so as to allow the restaurant to open different hours on different days and also to close for certain days (e.g. christmas), the form needs to be updateded so the available booking slows can be dynamically updated.
 To achieve this I would need to implement javascript to the form, which is currently outside my expertise.
