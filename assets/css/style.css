@@ -419,15 +419,16 @@ footer h5 {
 }
 
 .team-profile-image {
-    border-radius: 50%;
-    border: 2px solid black;
     width: 70%;
-    padding: 10px;
     background-color: #f5f5f5;
     margin-left: auto;
     margin-right: auto;
     margin-top: -35%;
-    max-height: 600px;
+}
+
+.card-img, .card-img-top {
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .card-title {
