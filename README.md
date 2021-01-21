@@ -194,8 +194,50 @@ The only issued i found was some issues on Galaxy fold, where the extra thin vie
 ## Deployment
 
 ### Github Pages
+The site is hosted using GitHub pages, deployed directly from the master branch of GitHub. The deployed site will update automatically as new commits are pushed to the master branch.
+
+To host on GitHub pages you must follow these steps:
+
+1. Go to the project repository
+2. Go to the 'Settings' tab
+3. Scroll down to the 'GitHub Pages' section and set the source to 'Master Branch'. This turns on GitHub pages for the repository.
+4. Reload the page. Scroll back to 'GitHub Pages' section, where the new URL for the reployed site can be found.
+
+Additional information around these steps can be found on the [GitHub Pages Help Page](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site).
+
+To run a version of the site locally, you can clone this repository using the following steps;
+
+In a code editor of your choice;
+
+1. Enter in Terminal: git clone https://russoakham.github.io/ci-milestone-project-1/
+2. To disconnect from original GitHub repository enter in terminal: git remote rm origin.
+
+Additional information around these cloning steps can be found on [GitHub Pages Help Page](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) and [removing a remote](https://docs.github.com/en/github/using-git/removing-a-remote)
 
 ## Issues I had to overcome
+Overall production of the site was smooth, where I only encountered a few small issues;
+
+- **Home Page Banner**: On the home page, the yellow banner slightly blended into the background due to the backgrounds natural yellow hew. To remove this blending, I added a 'box-shadow' effect via CSS to provide a natural effect border. I liked the effect so much, I've applied this to other elements throughout the site.
+
+- **Yellow Content Box & Team-Card Sizing**: Due to the content of the various boxes being different lengths, the yellow boxes and team-cards would size differently on various viewport sizes. This gave a messy look, as evidenced below;
+
+![Yellow-Content-Box Auto Sized](design-resources/testing/yellow-box-incorrect-sizing.PNG)
+
+To ensure i clean look, I wanted to ensure all elements were uniform in size. To enable this I added a 'min-height' css rule to the '.yellow-content-box' class, plus additional media-queries using bootstrap breakpoints, to ensure uniform height across devices.
+
+![Yellow-Content-Box Auto Sized](design-resources/testing/yellow-box-correct-sizing.PNG)
+
+- **Google Map iframe**: Similar to the yellow-content-boxes, I had to add media-queries to the iframe embedding the google map, to ensure this resized in line with it's partnered yellow content box. As the google map element is sized by the 'padding-bottom' css rule, I had to use this rather than 'min-height'.
+
+- **logos and menu pdf**: As this is a new business, I had to create an original logo and menu. To accomplish this I used [Canva](https://www.canva.com/), which provided templates I was able to adapt. I used the colours as noted under the 'UX' section to ensure they aligned to branding.
+
+- **Favicons**: I used [Real Favicon Generator](https://realfavicongenerator.net/) to create favicon images, for use across windows, iOS and android based devices.
+The generator does advise the files be placed directly into the website root, however for file cleanliness I decided to place these in a [sub-directory](assets/images/favicons). After testing, it appears to not have caused an issue for favicons to be working correctly.
+
+## Issues still to overcome
+- **Online Reservation Form**: Currently the form allows booking for the restaurants static open hours of 12pm-10pm Monday-Sunday. However so as to allow the restaurant to open different hours on different days and also to close for certain days (e.g. christmas), the form needs to be updateded so the available booking slows can be dynamically updated.
+To achieve this I would need to implement javascript to the form, which is currently outside my expertise.
+Alternatively, I'd advise the client to partner with a third party provider who provide online booking solutions such as [Opentable](https://www.opentable.co.uk/). This could then be directly embedded to the booking page, allow owners to easily update booking availability without the need of developer help and would offboard the need for future development to the third party.
 
 ## Credits
 
