@@ -406,8 +406,6 @@ footer h5 {
 .team-card {
     background-color: #FFC850;
     border: 2px solid black;
-    background-color: #FFC850;
-    border: 2px solid black;
     min-height: 370px;
     margin-top: 35%;
     border-radius: 5px;
@@ -428,7 +426,7 @@ footer h5 {
     border: 2px solid black;
 }
 
-.card-img, .card-img-top {
+.circle-image {
     border-radius: 50%;
     padding: 10px;
 }
@@ -485,7 +483,7 @@ footer h5 {
     transform: scale(1.05);
 }
 
-.card-img, .card-img-top {
+.card-img, .menu-img-top {
     border-bottom: 2px solid black;
 }
 
