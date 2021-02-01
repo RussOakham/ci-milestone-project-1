@@ -102,15 +102,17 @@ Before beginning development, I listed some styling ideas that I felt benefit th
  - Location: Embed Google Map iframe showing restaurant location.
 
 ## Technologies Used
-1. [HTML](https://en.wikipedia.org/wiki/HTML) 
-2. [CSS] (https://en.wikipedia.org/wiki/CSS)
-3. [Bootstrap CSS Framework](https://getbootstrap.com/)
-4. [Font Awesome](https://fontawesome.com/)
-5. [Google Fonts](https://fonts.google.com/)
+1. [HTML](https://en.wikipedia.org/wiki/HTML) - Programming language used for the project.
+2. [CSS] (https://en.wikipedia.org/wiki/CSS) - Programming language used for the project.
+3. [Bootstrap CSS Framework](https://getbootstrap.com/) - Library of pre-built HTML and CSS components, used for various aspects of the site.
+4. [Font Awesome](https://fontawesome.com/) - Library used for icons, such as social links and heat chillis.
+5. [Google Fonts](https://fonts.google.com/) - Used to choose a font style for the website.
 6. [TinyPNG](https://tinypng.com/) & [TinyJPG](https://tinyjpg.com/): To minimise image file sizes and maximise page load speed.
 7. [ResizePixel](https://www.resizepixel.com/) - To manipulate image size and dimensions.
 8. [Real Favicon Generator](https://realfavicongenerator.net/) to generate favicons and icons for desktop and mobile usage.
 9. [Am I Responsive?](http://ami.responsivedesign.is/) used for responsive design demo in ReadMe summary.
+10. [GitHub](https://github.com/) - Remote hosting platform and code repository.
+11. [GitPod](https://gitpod.io/) - IDE (Integrated Development Environment), for writing, editing and saving code.
 
 ## Features
 This section describes how user achiage what they need interacting with the website;
