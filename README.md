@@ -15,33 +15,19 @@ Overview of UX decisions, structure etc. Examples of websites I have viewed as p
 
 ### User Stories
 
-### Ideal Client
-The websites ideal client would be:
- - English speaking.
- - Have disposable income for eating out.
- - Individual with a keen interest in modern street food.
-
-Visitors to this website are searching for:
- - Restaurants in Bristol, specialising in chicken wings and burgers.
- - Restaurants in Bristol, run independently.
- - Restaurants in Bristol, with an upbeat atmosphere.
-
- ### Strategy
-The main goals of the website are:
-
- 1. To entice potential customers to book a table reservation with the restaurant. Via either submitting of a booking request via the online form or contacting the restaurant via phone or email.
- 2. To raise brand awareness of the restaurant, to entice potential customers to visit the restaurant without a reservation i.e. 'promote walk-ins'.
- 3. To allow returning visitors to quickly navigate to Contact Details and Booking pages.
- 4. To allow potential and returning customers easy navigation to the menu page, allowing the quick perusal of products offered.
-
-### Scope
-This section determines what the users should be able to do on the website.
-
-1. Enquire for a table reservation using an online booking system.
-2. Contact the restaurant to enquire around bookings or for further information.
-3. Find out where the restaurant is located.
-4. Find out more information about the restaurant, it's ethos and it's staff
-5. View current menu options the restaurant currently provides.
+ - As a business owner, I want to build awareness of the restaurant within Bristol, so as to attract new or returning customers.
+ - As a business owner, I want to advertise the products we produce and culture of the business, so as to attract new or returning customers.
+ - As a business owner, I want to offer the ability for customers to book a reservation online, to avoid unnecessary calls during busy hours.
+ 
+ - As a user, I want a simple and clean looking website, so information is easy to digest and not overwhelming.
+ - As a user, I want an easy to navigate website, to save time and avoid frustration.
+ - As a user, I want to be able to access the website on desktop, tablet and mobile devices, to ensure high convenience.
+ - 
+ - As a user, I want to be able to get in contact with the restaurant, to be able to ask additional questions.
+ - As a user, I want to know the opening hours and location of the restaurant, so I can easily find the premises on the day of reservation.
+ - As a user, I want to know the products on offer and the price, so I can ensure the products are attractive and within my personal budget prior to visiting.
+ - As a curious user, I want to know about the restaurant's culture, to ensure it aligns to my own ethics and/or desires.
+ - As a user, I want to be able to cater my booking for special occasions, so the restaurant is aware in advance.
 
 ### Structure
 At this point I started thinking about what information, pages, features, and calls to action were too necessary and how they would be grouped.
@@ -56,7 +42,7 @@ I wanted to keep the structure simple, restricting design to 4-5 key content pag
 - [Site Map](/workspace/ci-milestone-project-1/wireframes/site-map.pdf)
 
 ### Skeleton
-At this point I began creating proper wireframes, considering how the User will navigate through the site, what content has priority, and interrelation of content. I used Balsamiq to create the below wireframes:
+At this point I began creating proper wireframes, considering how the User will navigate through the site, what content has priority, and interrelation of content. I used [Balsamiq](https://balsamiq.com/) to create the below wireframes:
 
  - [Home page on mobile and desktop wireframe](/workspace/ci-milestone-project-1/wireframes/home-desktop-mobile.pdf)
  - [About Us page on mobile and desktop wireframe](/workspace/ci-milestone-project-1/wireframes/about-us-desktop-mobile.pdf)
@@ -132,6 +118,7 @@ This section describes how user achiage what they need interacting with the webs
 9. [Am I Responsive?](http://ami.responsivedesign.is/) used for responsive design demo in ReadMe summary.
 10. [GitHub](https://github.com/) - Remote hosting platform and code repository.
 11. [GitPod](https://gitpod.io/) - IDE (Integrated Development Environment), for writing, editing and saving code.
+12. [Balsamiq](https://balsamiq.com/) - Used for creation of wireframes for visual design testing.
 
 ## 4. Testing
 The testing process can be seen in the [TESTING.md](TESTING.md) document.
@@ -141,23 +128,35 @@ The testing process can be seen in the [TESTING.md](TESTING.md) document.
 ### Github Pages
 The site is hosted using GitHub pages, deployed directly from the master branch of GitHub. The deployed site will update automatically as new commits are pushed to the master branch.
 
+#### How I deployed my project to GitHub pages.
 To host on GitHub pages you must follow these steps:
 
-1. Go to the project repository
-2. Go to the 'Settings' tab
-3. Scroll down to the 'GitHub Pages' section and set the source to 'Master Branch'. This turns on GitHub pages for the repository.
-4. Reload the page. Scroll back to 'GitHub Pages' section, where the new URL for the reployed site can be found.
+1. Go to [GitHub.com](https://github.com/)
+2. Login to my account.
+3. Click on 'Responsitories'
+4. Click on 'CI-Milestone-Project-1'
+5. Go to the 'Settings' tab
+6. Scroll down to the 'GitHub Pages' section and set the source to 'Master Branch'. This turns on GitHub pages for the repository.
+7. Reload the page. Scroll back to 'GitHub Pages' section, where the new URL for the reployed site can be found.
 
 Additional information around these steps can be found on the [GitHub Pages Help Page](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site).
 
+#### Hot to clone 'CI-Milestone-Project-1' in GitHub and GitPod.
 To run a version of the site locally, you can clone this repository using the following steps;
 
 In a code editor of your choice;
 
-1. Enter in Terminal: git clone https://russoakham.github.io/ci-milestone-project-1/
-2. To disconnect from original GitHub repository enter in terminal: git remote rm origin.
+1. Go to [GitHub.com](https://github.com/)
+2. Login to my account.
+3. Click on 'Responsitories'
+4. Click on 'CI-Milestone-Project-1'
+5. Click on the 'Code' button.
+6. Under 'HTTPS' click the clipboard icon to the right of the URL.
+7. In your IDE of choice, open repository or create a new repository.
+8. Open Terminal ('Terminal' then 'New Terminal' from top ribbon menu in GitPod.)
+9. Type 'git clone', paste URL link and press enter.
 
-Additional information around these cloning steps can be found on [GitHub Pages Help Page](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) and [removing a remote](https://docs.github.com/en/github/using-git/removing-a-remote)
+Additional information around these cloning steps can be found on [GitHub Pages Help Page](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## 6. Credits
 
@@ -225,4 +224,4 @@ The photos and images used for this site were obtained from;
 
  - Thanks to my mentors Anthony Ngene and Precious Ijege for their suggestions, time and support.
  - Thanks to those on Slack for reviewing my project and making suggestions:
- - Thanks to my housemates and friends for reviewing the project in their own times.
+ - Thanks to my housemates, friends and family for reviewing the project and offering constructive feedback.
