@@ -22,11 +22,12 @@ Overview of UX decisions, structure etc. Examples of websites I have viewed as p
  - As a user, I want a simple and clean looking website, so information is easy to digest and not overwhelming.
  - As a user, I want an easy to navigate website, to save time and avoid frustration.
  - As a user, I want to be able to access the website on desktop, tablet and mobile devices, to ensure high convenience.
- - 
+
  - As a user, I want to be able to get in contact with the restaurant, to be able to ask additional questions.
  - As a user, I want to know the opening hours and location of the restaurant, so I can easily find the premises on the day of reservation.
  - As a user, I want to know the products on offer and the price, so I can ensure the products are attractive and within my personal budget prior to visiting.
  - As a curious user, I want to know about the restaurant's culture, to ensure it aligns to my own ethics and/or desires.
+ - As a curious user, I want to read reviews from other customers to the restaurant, to know if i should expect a positive experience
  - As a user, I want to be able to cater my booking for special occasions, so the restaurant is aware in advance.
 
 ### Structure

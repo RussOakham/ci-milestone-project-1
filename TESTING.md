@@ -68,9 +68,51 @@ According to [caniuse](https://caniuse.com/usage-table) the current usage of Int
 Note: Microsoft released Internet Explorer in 2013 and actively developed the browser until 2015, when Microsoft Edge was released as it's replacement. Since 2015, the only updates for IE have been security patches and bug fixes.
 
 ## Testing User Stories
+- As a business owner, I want to build awareness of the restaurant within Bristol, so as to attract new or returning customers.
+    - When the user is navigating the site, they'll see the brand logo and restuarant pictures at the top of each page.
+    - The site also has a favicon depicting the restaurant logo, that makes the website recognisable while looking at browser tabs and bookmarks.
+    - On the **About** page the user can see pictures of all key team members, including the owner.
+    - On the **Menu** page the user can see pictures of all dishes server by the restaurant.
+    - On the **About** page the user can read that all ingrediants are sourced locally.
 
+ - As a business owner, I want to advertise the products we produce and culture of the business, so as to attract new or returning customers.
+    - On the **Menu** page the user can see pictures of all dishes server by the restaurant.
+    - On the **About** page the user can read that all ingrediants are sourced locally.
+    - On the **About** page the user can learn of the inspiration behind the restaurants founding and menu.
 
+ - As a business owner, I want to offer the ability for customers to book a reservation online, to avoid unnecessary calls during busy hours.
+    - On the **Reservation** page the user can find a booking form to complete online.
+    - On the **Home** page there is a 'Book A Table!' call-to-action button in the centre of the top banner, this navigates to the reservation page.
+    - To the right of the **Navigation** bar there is a 'Book A Table' call-to-action button, this is present on all pages and navigates to the reservation page.
+ 
+ - As a user, I want a simple and clean looking website, so information is easy to digest and not overwhelming.
+    - Users view the site and can see the layout is simple, well spaced and consistent across all pages. Images are of high quality, but styled so as not to be distracting. All text and descriptions are kept brief, to allow easy digestion of information.
+    - Users are engaged by the bright, exciting colour scheme, which contrast also allows easy reading of all text elements.
 
+ - As a user, I want an easy to navigate website, to save time and avoid frustration.
+    - On all pages of the website, the simple navigation bar is fixed to the top of the page, which allows easy navigation to all other pages of the website. When scrolling, the navigation bar remains at the top of the viewport, for easy access.
+
+ - As a user, I want to be able to access the website on desktop, tablet and mobile devices, to ensure high convenience.
+    - Users who are browsing on Chrome, Safari, Microsoft Edge or Firefox can use the website on desktop, tablet and mobile devices with full responsiveness.
+ 
+ - As a user, I want to be able to get in contact with the restaurant, to be able to ask additional questions.
+    - The user can navigate to bottom of every page, where the **footer** displays contact details for the restaurant.
+
+ - As a user, I want to know the opening hours and location of the restaurant, so I can easily find the premises on the day of reservation.
+    - On the **Home** page, the opening hours and location for the restaurant are clearly shown, including embedded google map iframe for the premises.
+    - The opening hours and address can also be found in the **footer** for every page.
+
+ - As a user, I want to know the products on offer and the price, so I can ensure the products are attractive and within my personal budget prior to visiting.
+    - On the **Menu** page, all products have images, description and price information. Additional information such as spice level, are included where appropriate.
+
+ - As a curious user, I want to know about the restaurant's culture, to ensure it aligns to my own ethics and/or desires.
+    - On the **About** page, users can read a short summary of the restaurants founding, menu inspiration and ingrediant sourcing. Users can also read short biographies for key team members.
+
+ - As a curious user, I want to read reviews from other customers to the restaurant, to know if i should expect a positive experience
+    - On the **Home** page, users can review testimonials of previous customers, gauging their enjoyment of the restaurant.
+
+ - As a user, I want to be able to cater my booking for special occasions, so the restaurant is aware in advance.
+    - On the **Reservation** page, users can provide additional information regarding their booking via the 'Additional Info:' textbox on the booking form.
 
 ## Issues I had to overcome
 Overall production of the site was smooth, where I only encountered a few small issues;
