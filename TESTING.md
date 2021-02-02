@@ -136,6 +136,8 @@ The generator does advise the files be placed directly into the website root, ho
 
 - **Team Card Images**: The images on the team card would stretch vertically when viewed on a thin screened device, such as my iPhone XR. This is because the images were under the "card" classes 'display: flex' and 'flex-direction: column" rules. To rectify this, I wrapped the images in their own div and use this as my styling class for the images. 
 
+- **Bootstrap Console Error**: Upon loading the deployed site, Chrome DevTools showed and error in loading some Bootstrap scripts. This was because I had sequenced bootstrap scripts before jQuery scripts in the site HTML, when jQuery is a prerequisite for Boostrap functionality. To rectify this, I moved the jQuery script to the first position of HTML scripts.
+
 ## Issues still to overcome
 - **Online Reservation Form**: Currently the form allows booking for the restaurant's static open hours of 12pm-10pm Monday-Sunday. However so as to allow the restaurant to open different hours on different days and also to close for certain days (e.g. christmas), the form needs to be updated so the available booking slows can be dynamically updated.
 To achieve this I would need to implement javascript to the form, which is currently outside my expertise.
