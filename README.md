@@ -7,7 +7,7 @@ The project is a small website for a restaurant based in Bristol. The main purpo
 The live website can be found at the following link;
 [Paco's Wing Bar](https://russoakham.github.io/ci-milestone-project-1/)
 
-![Responsive demo](developer-resources/testing/responsive-demo.PNG "Responsive demo")
+![Responsive demo](design-resources/testing/responsive-demo.PNG "Responsive demo")
 
 ## 1. UX
 

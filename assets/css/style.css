@@ -632,10 +632,6 @@ footer h5 {
 
  /* Hero Callout */
  @media (max-width: 767.98px) {
-     .hero-callout {
-        margin: 30px;
-     }
-
      .hero-callout p {
         margin-bottom: 0px;
      }

@@ -44,22 +44,33 @@ These changes improved all metrics to the below passing scores;
 ![Google Lighthouse Audit Score](design-resources/testing/google-lighthouse-audit.PNG)
 
 ## Responsive Browser & Device Testing
-Using the Google Devtools, I tested the website through the following viewports;
+To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [BrowserStack](https://www.browserstack.com/).
 
-- Moto G4
-- Galaxy S5
-- Pixel 2
-- Pixel 2 XL
-- iPhone 5/SE
-- iPhone 6/7/8
-- iPhone 6/7/8 Plus
-- iPhone X
-- iPad
-- iPad Pro
-- Surface Duo
-- Galaxy Fold
+### Responsiveness
+![Desktop Responsiveness](design-resources/testing/responsive-desktop.PNG)
 
-The only issue i found was some issues on Galaxy fold, where the extra thin viewport caused issues with content visuals and overflowing boxes. To rectify this I included an additional media query to reduce padding of yellow content boxes to 20px left and right, and remove column padding in the opening hours table.
+![Tablet Responsiveness](design-resources/testing/responsive-tablet.PNG)
+
+![Mobile Responsiveness](design-resources/testing/responsive-mobile.PNG)
+
+I founnd only a few small issue, all on very small mobile devices, where the extra thin viewport caused issues visual issues. 
+
+The first issue was content overflowing the yellow content boxes, such as the opening hours table. To rectify this I included an additional media query to reduce padding of yellow content boxes to 20px left and right, and remove column padding in the opening hours table.
+
+The second issue was the call-to-action container on the homepage banner covered the near entirety of the banner image. To improve this i added a small screen size media query reducing margin and padding to the following css classes; 'hero-callout p','hero-header' and 'heading-divider'. These changes allowed more of the background image to be visible.
+
+### Browser Compatability
+![Browser Compatability](design-resources/testing/browser-compatability.PNG)
+
+The site works well on all browsers except for Internet Explorer, which fails to load the images as the webP image format is not supported.
+According to [caniuse](https://caniuse.com/usage-table) the current usage of Internet Explorer is just 1.1% or total browser users, therefore I am comfortable to not support IE in the site design.
+
+Note: Microsoft released Internet Explorer in 2013 and actively developed the browser until 2015, when Microsoft Edge was released as it's replacement. Since 2015, the only updates for IE have been security patches and bug fixes.
+
+## Testing User Stories
+
+
+
 
 ## Issues I had to overcome
 Overall production of the site was smooth, where I only encountered a few small issues;
