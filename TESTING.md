@@ -27,7 +27,7 @@ Screenshots for Final Validations passes can be seen below;
  - CSS: [style.css](design-resources/testing/CSS/css-validation.PNG)
 
 ### Google Lighthouse Audit
-I used Google's lighthouse audit to test the website conforms positively with Googles performance metrics, with the aim of achieving scores of 90 in all areas on desktop.
+I used Google's lighthouse audit to test the website conforms positively with Google's performance metrics, with the aim of achieving scores of 90 in all areas on desktop.
 
 After initial testing, the performance metric was below 90, while Accessibility, Best Practices and SEO were low 90's. To improve this i carried out the below actions;
 
@@ -57,28 +57,28 @@ I found only a few small issues related to small mobile device viewport.
 
 The first issue was content overflowing the yellow content boxes, such as the opening hours table. To rectify this I included an additional small viewport media query to reduce padding of yellow content boxes to 20px left and right, and remove column padding in tables.
 
-The second issue was the call-to-action container on the homepage banner, which covered almost the entire banner image. To improve this i added a small screen size media query reducing margin and padding to the following css classes; 'hero-callout p','hero-header' and 'heading-divider'. These changes allowed more of the background image to be visible and improved overall aesthetic.
+The second issue was the call-to-action container on the homepage banner, which covered almost the entire banner image. To improve this I added a small screen size media query reducing margin and padding to the following css classes; 'hero-callout p','hero-header' and 'heading-divider'. These changes allowed more of the background image to be visible and improved the overall aesthetic.
 
-### Browser Compatability
-![Browser Compatability](design-resources/testing/browser-compatability.PNG)
+### Browser Compatibility
+![Browser Compitability](design-resources/testing/browser-compatability.PNG)
 
 The site works well on all browsers except for Internet Explorer, which fails to load the images due to not supporting the webP image format.
 
 According to [caniuse](https://caniuse.com/usage-table) the current usage of Internet Explorer is just 1.1% or total browser users, therefore I am comfortable to not support IE in the site design.
 
-Note: Microsoft released Internet Explorer in 2013 and ceased active development in 2015, when Microsoft Edge was released as it's replacement, as evidenced by [this article](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/the-perils-of-using-internet-explorer-as-your-default-browser/ba-p/331732) from Microsofts design team. Since 2015 Microsoft has been actively encouraging users to adopt Edge over Explorer, with the only remaining updates for IE, being security patches and bug fixes.
+Note: Microsoft released Internet Explorer in 2013 and ceased active development in 2015, when Microsoft Edge was released as it's replacement, as evidenced by [this article](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/the-perils-of-using-internet-explorer-as-your-default-browser/ba-p/331732) from Microsoft's design team. Since 2015 Microsoft has been actively encouraging users to adopt Edge over Explorer, with the only remaining updates for IE, being security patches and bug fixes.
 
 ## Testing User Stories
 - As a business owner, I want to build awareness of the restaurant within Bristol, so as to attract new or returning customers.
     - When the user is navigating the site, they'll see the brand logo and restaurant pictures at the top of each page.
     - The site also has a favicon depicting the restaurant logo, that makes the website recognisable while looking at browser tabs and bookmarks.
     - On the **About** page the user can see pictures of all key team members, including the owner.
-    - On the **Menu** page the user can see pictures of all dishes server by the restaurant.
-    - On the **About** page the user can read that all ingrediants are sourced locally.
+    - On the **Menu** page the user can see pictures of all dishes served by the restaurant.
+    - On the **About** page the user can read that all ingrediant's are sourced locally.
 
  - As a business owner, I want to advertise the products we produce and culture of the business, so as to attract new or returning customers.
     - On the **Menu** page the user can see pictures of all dishes served by the restaurant.
-    - On the **About** page the user can read that all ingrediants are sourced locally.
+    - On the **About** page the user can read that all ingrediant's are sourced locally.
     - On the **About** page the user can learn of the inspiration behind the restaurant's founding and menu.
 
  - As a business owner, I want to offer the ability for customers to book a reservation online, to avoid unnecessary calls during busy hours.
@@ -107,7 +107,7 @@ Note: Microsoft released Internet Explorer in 2013 and ceased active development
     - On the **Menu** page, all products have images, description and price information. Additional information such as spice level, are included where appropriate.
 
  - As a curious user, I want to know about the restaurant's culture, to ensure it aligns to my own ethics and/or desires.
-    - On the **About** page, users can read a short summary of the restaurants founding, menu inspiration and ingrediant sourcing. Users can also read short biographies for key team members.
+    - On the **About** page, users can read a short summary of the restaurants founding, menu inspiration and ingredient sourcing. Users can also read short biographies for key team members.
 
  - As a curious user, I want to read reviews from other customers to the restaurant, to know if i should expect a positive experience
     - On the **Home** page, users can review testimonials of previous customers, gauging their enjoyment of the restaurant.
@@ -137,7 +137,7 @@ The generator does advise the files be placed directly into the website root, ho
 
 - **Team Card Images**: The images on the team card would stretch vertically when viewed on a thin screened device, such as my iPhone XR. This is because the images were under the "card" classes 'display: flex' and 'flex-direction: column" rules. To rectify this, I wrapped the images in their own div and used this as my styling class (team-profile-image) for the images. 
 
-- **Bootstrap Console Error**: Upon loading the deployed site, Chrome DevTools showed an error loading some Bootstrap scripts. This was because jQuery is a prerequisite for Boostrap functionality and I was loading Bootstrap first. To rectify this, I moved the jQuery script to the first position of HTML scripts.
+- **Bootstrap Console Error**: Upon loading the deployed site, Chrome DevTools showed an error loading some Bootstrap scripts. This was because jQuery is a prerequisite for Bootstrap functionality and I was loading Bootstrap first. To rectify this, I moved the jQuery script to the first position of HTML scripts.
 
 ## Issues still to overcome
 - **Online Reservation Form**: Currently the form allows booking for the restaurant's static open hours of 12pm-10pm Monday-Sunday. However, to allow the restaurant to open different hours throughout the week and also to close for certain days (e.g. christmas), the form needs to be updated to allow dynamic updates of available times depending on date/day.
