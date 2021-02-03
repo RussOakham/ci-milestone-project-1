@@ -2,7 +2,7 @@
 
 ## Project overview
 
-The project is a small website for a restaurant based in Bristol. The main purpose would be to get people interested in booking a reservation at the restaurant. The website promotes that the restaurant is a small independant business, whose menu is inspired by international street food. 
+The project is a small website for a restaurant based in Bristol. The sites main purpose is to get entice new or previous customers to book a reservation at the restaurant. The website promotes that the restaurant is a small independant business, whose menu is inspired by international street food. 
 
 The live website can be found at the following link;
 [Paco's Wing Bar](https://russoakham.github.io/ci-milestone-project-1/)
@@ -11,7 +11,7 @@ The live website can be found at the following link;
 
 ## 1. UX
 
-Overview of UX decisions, structure etc. Examples of websites I have viewed as part of research & UX decisions from it.
+Overview of UX decisions, structure etc. Examples of websites I have viewed as part of research & resulting UX design decisions.
 
 ### User Stories
 
@@ -54,7 +54,7 @@ At this point I began creating proper wireframes, considering how the User will 
 This is the sensory design section of a website, or how it looks, feels and sounds. I wanted the design to be clean and the colour scheme to be light and refreshing. 
 
 #### Colour
-As the restaurant is inspired by South American and international street food, I was keen to choose a colour scheme reminiscent of South America. Because of this I chose to use a predominantly blue, yellow and red colour scheme. These colours feature strongly in the flags of South American countries, as well as their sporting colours - e.g. Argentina, Brazil, Colombia and Costa Rica.
+As the restaurant is inspired by South American and international street food, I was keen to choose a colour scheme reminiscent of South America. With this in mind, I chose to use a predominantly blue, yellow and red colour scheme. These colours feature strongly in the flags of South American countries, as well as their sporting colours - e.g. Argentina, Brazil, Colombia and Costa Rica.
 
 Additionally, the colours blue, yellow and red evoke the emotional responses I would like to evoke in potential customers. According to [this article on 99 designs](https://99designs.co.uk/blog/tips/how-color-impacts-emotions-and-behaviors/), the colours I've chosen evoke the following responses;
 
@@ -73,7 +73,7 @@ Additionally, the colours blue, yellow and red evoke the emotional responses I w
   ![Colour Scheme](design-resources/color-pallete.PNG)
 
 #### Language/Tone 
-I wanted the language to reflect the casual and fun atmosphere of the restaurant, so I wrote content in line with this. Avoiding technical or formal language where possible.
+I wanted the language to reflect the casual and fun atmosphere of the restaurant, so content was written in line with this. Avoiding technical or formal language where possible.
 
 #### Styling Considerations
 Before beginning development, I listed some styling ideas that I felt benefit the website. Majority of these can be seen in the wireframes.
@@ -83,34 +83,62 @@ Before beginning development, I listed some styling ideas that I felt benefit th
     - Card design, which reacts to mouse hover (transform: Zoom) to add a level of interaction and excitement to products.
     - Ability to download pdf version of menu in printable format for customer convenience.
  - Navigation
-    - Sticky
+    - Sticky top
     - Mobile: 'Burger' menu icon, expanding on click.
-    - Logo: Returns to top of current page on click.
+    - Logo: Navigates to home page on click.
  - Location: Embed Google Map iframe showing restaurant location.
 
 ## 2. Features
-This section describes how user achiage what they need interacting with the website;
+This section describes how user achieve what they need interacting with the website;
 
 ### Existing Features
- - **View Restaurant Information** - Users can read the restaurant background and about sections to understand the restaurant's culture and atmosphere.
- - **View Restaurant Location** - The home page and footer give the restaurants address and contact details, as well as embedded google map so users can easily see restaurant location.
- - **Contact The Restaurant** - The site footer provides e-mail and phone contact details for the restaurant, so customers can contact the restaurant directly with queries. Additionally the online reservation form has a test input section so customers can provide additional information on bookings such as dietary requirements or large party numbers.
- - **Book Reservation Online** - allows users to submit an online booking request via filling out the online form. The form does not work currently, as there is not yet a server side component to save submitted information. I've added a bootstrap modal popup to the form, to provide feedback to customers when booking requests are submitted successfully.
- - **View Previous Customer Experiences** - users can view testimonials from prior customers.
- - **Access Restaurant Social Media** - users can find social media profiles for the restaurant in the footer.
+#### **The Header** includes:
+ - **Restaurant Name and Logo**: Builds brand awareness amongst users.
+ - **Navigation Bar**: Allows users to navigate the site in an easy and intuitive way.
+ - **'Book A Table!' Button**: Ensures 'call-to-action' button is present on user screen at all times, allowing easy navigation to booking page to users.
+
+ #### **The Footer** includes:
+ - **Hero Statement** - Short statement describing the restaurants identity.
+ - **Opening Hours** - Restaurant opening hours for customer convenience
+ - **Contact Us** - Contact details for customer convenience including email and telephone.
+ - **Book A Table** Link - Additional 'call-to-action' link directing to reservation page.
+ - **Menu** Download Link - Addtional link to download pdf version of menu for customer convenience.
+ - **Social Links** - Links to restaurants various social media pages.
+
+ Both the Header and Footer are present and consistent on all website pages.
+
+ #### **Home** page includes:
+ - **Image Banner with call to action button** - Visually pleasing design and allows customers to make a reservation as soon as they enter the site.
+ - **What out Customers Say** - Testimonials from previous customers, to build repute with new or returning users.
+ - **Our Location** - Addres and opening hours for restaurant, plus embedded visual Google Map location. To allow customers to easily locate physical premises.
+
+#### **About Us** page includes:
+ - **About Paco's** - Allows users to learn of restuarants history, philosophy and culture.
+ - **Our Team** - Allows users to learn background of key staff members, building familiarity between users and staff.
+
+ #### **Menu* page includes:
+ - **Restaurants Menu** - A description of all items on the menu at the moment. Each menu card includes an image of the dish, ingrediants used and price. Where appropriate additional information regarding spice levels are included.
+
+ #### **Reserveration** page includes:
+ - **Reservation Form** - Allows users to submit a booking request online, providing name, contact details, time, date, party size and optional additional information.
+
+ **Favicon**: Present on every page and in the form of business logo, allows users to identify the site by just seeing the icon on tab.
 
 ### Features to consider implementing in future.
  - Social Media Feed - Instagram, Twitter, Facebook
  - Integration with third party delivery platforms such as deliveroo and uber eats.
- - Booking Form: Provide different booking times across weekends/weekdays to allow varied opening times.
+ - Booking Form: 
+    - Provide different booking times across weekends/weekdays to allow varied opening times.
+    - Connect to database, to store contact details for further marketing activities.
+    - Provide e-mail confirmation of bookings.
  - Video(s): Video promoting the restaurant, including short interviews with team members and clips of the restaurant during service.
  - Blog: Blog posts to promote seasonal items and changes to the menu.
  - Embedded Ratings: Tripadvisor and Google star ratign embedded on homepage to further promote website brand.
 
 ## 3. Technologies Used
-1. [HTML](https://en.wikipedia.org/wiki/HTML) - Programming language used for the project.
-2. [CSS](https://en.wikipedia.org/wiki/CSS) - Programming language used for the project.
-3. [Bootstrap CSS Framework](https://getbootstrap.com/) - Library of pre-built HTML and CSS components, used for various aspects of the site.
+1. [HTML](https://en.wikipedia.org/wiki/HTML) - Programming language providing content and structure of website.
+2. [CSS](https://en.wikipedia.org/wiki/CSS) - Programming language providing styling of website.
+3. [Bootstrap CSS Framework](https://getbootstrap.com/) - Library of pre-built HTML and CSS components, used for various aspects of the site, such as navigation bar.
 4. [Font Awesome](https://fontawesome.com/) - Library used for icons, such as social links and heat chillis.
 5. [Google Fonts](https://fonts.google.com/) - Used to choose a font style for the website.
 6. [TinyPNG](https://tinypng.com/) & [TinyJPG](https://tinyjpg.com/): To minimise image file sizes and maximise page load speed.
@@ -120,6 +148,9 @@ This section describes how user achiage what they need interacting with the webs
 10. [GitHub](https://github.com/) - Remote hosting platform and code repository.
 11. [GitPod](https://gitpod.io/) - IDE (Integrated Development Environment), for writing, editing and saving code.
 12. [Balsamiq](https://balsamiq.com/) - Used for creation of wireframes for visual design testing.
+13. [Autoprefixer](https://autoprefixer.github.io/) - Used to add vendor prefixes to CSS rules.
+14. [Responsive Design Checker](https://www.responsivedesignchecker.com/) - Used to check website response across device types.
+15. [BrowserStack](https://www.browserstack.com/) 
 
 ## 4. Testing
 The testing process can be seen in the [TESTING.md](TESTING.md) document.
@@ -138,7 +169,7 @@ To host on GitHub pages you must follow these steps:
 4. Click on 'CI-Milestone-Project-1'
 5. Go to the 'Settings' tab
 6. Scroll down to the 'GitHub Pages' section and set the source to 'Master Branch'. This turns on GitHub pages for the repository.
-7. Reload the page. Scroll back to 'GitHub Pages' section, where the new URL for the reployed site can be found.
+7. Reload the page. Scroll back to 'GitHub Pages' section, where the new URL for the deployed site can be found.
 
 Additional information around these steps can be found on the [GitHub Pages Help Page](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site).
 
@@ -181,7 +212,7 @@ The following sites are websites I used to assist in solving technical issues:
 - [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/introduction/): For guidance on Bootstrap use and adaptations.
 - [CSS-Tricks](https://css-tricks.com/): For implementing CSS effects such as box-shadow.
 - [w3Schools](https://www.w3schools.com/): For checking proper syntax of HTML and CSS elements. 
-- [Autoprefixer] - For generation CSS browser prefixes.
+- [Autoprefixer] - For generating CSS browser prefixes.
 
 ### Content
 All text content on the site was written originally by myself, with the below notes;
