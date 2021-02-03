@@ -212,7 +212,7 @@ The following sites are websites I used to assist in solving technical issues:
 - [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/introduction/): For guidance on Bootstrap use and adaptations.
 - [CSS-Tricks](https://css-tricks.com/): For implementing CSS effects such as box-shadow.
 - [w3Schools](https://www.w3schools.com/): For checking proper syntax of HTML and CSS elements. 
-- [Autoprefixer] - For generating CSS browser prefixes.
+- [Autoprefixer](https://autoprefixer.github.io/) - For generating CSS browser prefixes.
 
 ### Content
 All text content on the site was written originally by myself, with the below notes;

@@ -1,4 +1,4 @@
-#<p align="center">Testing for [Paco's Wing Bar](https://russoakham.github.io/ci-milestone-project-1/)</p>
+# <p align="center">Testing for [Paco's Wing Bar](https://russoakham.github.io/ci-milestone-project-1/)</p>
 
 ## Validation
 
@@ -60,7 +60,7 @@ The first issue was content overflowing the yellow content boxes, such as the op
 The second issue was the call-to-action container on the homepage banner, which covered almost the entire banner image. To improve this I added a small screen size media query reducing margin and padding to the following css classes; 'hero-callout p','hero-header' and 'heading-divider'. These changes allowed more of the background image to be visible and improved the overall aesthetic.
 
 ### Browser Compatibility
-![Browser Compitability](design-resources/testing/browser-compatability.PNG)
+![Browser Compatability](design-resources/testing/browser-compatability.PNG)
 
 The site works well on all browsers except for Internet Explorer, which fails to load the images due to not supporting the webP image format.
 
