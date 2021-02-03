@@ -150,7 +150,7 @@ This section describes how user achieve what they need interacting with the webs
 12. [Balsamiq](https://balsamiq.com/) - Used for creation of wireframes for visual design testing.
 13. [Autoprefixer](https://autoprefixer.github.io/) - Used to add vendor prefixes to CSS rules.
 14. [Responsive Design Checker](https://www.responsivedesignchecker.com/) - Used to check website response across device types.
-15. [BrowserStack](https://www.browserstack.com/) 
+15. [BrowserStack](https://www.browserstack.com/) - Used to check website response across device types.
 
 ## 4. Testing
 The testing process can be seen in the [TESTING.md](TESTING.md) document.
