@@ -13,7 +13,7 @@ I validated the HTML with [W3 Validation Service](https://validator.w3.org/). Th
  The reservation form section showed an error at first, this is because the option is marked as "required", as the first option must either have an empty 'value' attribute or have no text content. The fix to this is to add a 'disabled value' showing placeholder text.
 
  **Warnings**
- All pages showed warnings regarding HTML semantics and use of H1's and H2-6's in sections, however upon review I am happy that all headings are relevant and each page has a relevant unique H1. So I decided to enact any changes. 
+ All pages showed warnings regarding HTML semantics and use of H1's and H2-6's in sections, however upon review I am happy that all headings are relevant and each page has a relevant unique H1. So I decided not to enact any changes. 
 
 ### W3 CSS 
 I also validated the CSS with the [w3 Validation Service](https://jigsaw.w3.org/css-validator/) and it found no errors.
@@ -27,13 +27,13 @@ Screenshots for Final Validations passes can be seen below;
  - CSS: [style.css](design-resources/testing/CSS/css-validation.PNG)
 
 ### Google Lighthouse Audit
-I used Google's lighthouse audit to test the website conforms positively with Googles performance metrics, with the aim for achieving scores of 90 in all areas on desktop.
+I used Google's lighthouse audit to test the website conforms positively with Googles performance metrics, with the aim of achieving scores of 90 in all areas on desktop.
 
 After initial testing, the performance metric was below 90, while Accessibility, Best Practices and SEO were low 90's. To improve this i carried out the below actions;
 
-**Performance** - Converted all images from .jpg to .webP, which offers improved compression and therefore quicker loading times. I used the website [caniuse](https://caniuse.com/webp), to ensure webp is compliant with all major web browsers, which it is.
+**Performance** - Converted all images from .jpg/.png to .webP, which offers improved compression and therefore quicker loading times. I used the website [caniuse](https://caniuse.com/webp), to ensure webp is compliant with all major web browsers, which it is with exception of Internet Explorer. I've detailed the reasoning for accepting non-compliance with Internet Explorer in the **responsiveness** section.
 
-**Accessibility** - Added rel="noopener" and rel="noreferrer" to social media links in footer, to avoid passing of any site information to external sites.
+**Accessibility** - Added rel="noopener" and rel="noreferrer" to social media links in footer, to improve security and avoid passing of any site information to external sites.
 
 **Best Practices** - Added a 'title' to google map iframe, for improved semantics.
 
@@ -53,32 +53,33 @@ To test the responsiveness of the site I used [Chrome DevTools](https://develope
 
 ![Mobile Responsiveness](design-resources/testing/responsive-mobile.PNG)
 
-I founnd only a few small issue, all on very small mobile devices, where the extra thin viewport caused issues visual issues. 
+I found only a few small issues related to small mobile device viewport.
 
-The first issue was content overflowing the yellow content boxes, such as the opening hours table. To rectify this I included an additional media query to reduce padding of yellow content boxes to 20px left and right, and remove column padding in the opening hours table.
+The first issue was content overflowing the yellow content boxes, such as the opening hours table. To rectify this I included an additional small viewport media query to reduce padding of yellow content boxes to 20px left and right, and remove column padding in tables.
 
-The second issue was the call-to-action container on the homepage banner covered the near entirety of the banner image. To improve this i added a small screen size media query reducing margin and padding to the following css classes; 'hero-callout p','hero-header' and 'heading-divider'. These changes allowed more of the background image to be visible.
+The second issue was the call-to-action container on the homepage banner, which covered almost the entire banner image. To improve this i added a small screen size media query reducing margin and padding to the following css classes; 'hero-callout p','hero-header' and 'heading-divider'. These changes allowed more of the background image to be visible and improved overall aesthetic.
 
 ### Browser Compatability
 ![Browser Compatability](design-resources/testing/browser-compatability.PNG)
 
-The site works well on all browsers except for Internet Explorer, which fails to load the images as the webP image format is not supported.
+The site works well on all browsers except for Internet Explorer, which fails to load the images due to not supporting the webP image format.
+
 According to [caniuse](https://caniuse.com/usage-table) the current usage of Internet Explorer is just 1.1% or total browser users, therefore I am comfortable to not support IE in the site design.
 
-Note: Microsoft released Internet Explorer in 2013 and actively developed the browser until 2015, when Microsoft Edge was released as it's replacement. Since 2015, the only updates for IE have been security patches and bug fixes.
+Note: Microsoft released Internet Explorer in 2013 and ceased active development in 2015, when Microsoft Edge was released as it's replacement, as evidenced by [this article](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/the-perils-of-using-internet-explorer-as-your-default-browser/ba-p/331732) from Microsofts design team. Since 2015 Microsoft has been actively encouraging users to adopt Edge over Explorer, with the only remaining updates for IE, being security patches and bug fixes.
 
 ## Testing User Stories
 - As a business owner, I want to build awareness of the restaurant within Bristol, so as to attract new or returning customers.
-    - When the user is navigating the site, they'll see the brand logo and restuarant pictures at the top of each page.
+    - When the user is navigating the site, they'll see the brand logo and restaurant pictures at the top of each page.
     - The site also has a favicon depicting the restaurant logo, that makes the website recognisable while looking at browser tabs and bookmarks.
     - On the **About** page the user can see pictures of all key team members, including the owner.
     - On the **Menu** page the user can see pictures of all dishes server by the restaurant.
     - On the **About** page the user can read that all ingrediants are sourced locally.
 
  - As a business owner, I want to advertise the products we produce and culture of the business, so as to attract new or returning customers.
-    - On the **Menu** page the user can see pictures of all dishes server by the restaurant.
+    - On the **Menu** page the user can see pictures of all dishes served by the restaurant.
     - On the **About** page the user can read that all ingrediants are sourced locally.
-    - On the **About** page the user can learn of the inspiration behind the restaurants founding and menu.
+    - On the **About** page the user can learn of the inspiration behind the restaurant's founding and menu.
 
  - As a business owner, I want to offer the ability for customers to book a reservation online, to avoid unnecessary calls during busy hours.
     - On the **Reservation** page the user can find a booking form to complete online.
@@ -111,7 +112,7 @@ Note: Microsoft released Internet Explorer in 2013 and actively developed the br
  - As a curious user, I want to read reviews from other customers to the restaurant, to know if i should expect a positive experience
     - On the **Home** page, users can review testimonials of previous customers, gauging their enjoyment of the restaurant.
 
- - As a user, I want to be able to cater my booking for special occasions, so the restaurant is aware in advance.
+ - As a user, I want to be able to cater my booking for special occasions, so the restaurant is aware of additional requirements in advance.
     - On the **Reservation** page, users can provide additional information regarding their booking via the 'Additional Info:' textbox on the booking form.
 
 ## Issues I had to overcome
@@ -131,14 +132,14 @@ To ensure a clean look, I wanted to ensure all elements were uniform in size. To
 
 - **logos and menu pdf**: As this is a new business, I had to create an original logo and menu. To accomplish this I used [Canva](https://www.canva.com/), which provided templates I was able to adapt. I used the colours as noted under the 'UX' section to ensure they aligned to branding.
 
-- **Favicons**: I used [Real Favicon Generator](https://realfavicongenerator.net/) to create favicon images, for use across windows, iOS and android based devices.
-The generator does advise the files be placed directly into the website root, however for file cleanliness I decided to place these in a [sub-directory](assets/images/favicons). After testing, it appears to not have caused an issue for favicons to be working correctly.
+- **Favicons**: I used [Real Favicon Generator](https://realfavicongenerator.net/) to create favicon images, for use across Windows, iOS and Android based devices.
+The generator does advise the files be placed directly into the website root, however for file cleanliness I decided to place these in a [sub-directory](assets/images/favicons). After testing, it appears to not have caused an issue and favicons are working correctly.
 
-- **Team Card Images**: The images on the team card would stretch vertically when viewed on a thin screened device, such as my iPhone XR. This is because the images were under the "card" classes 'display: flex' and 'flex-direction: column" rules. To rectify this, I wrapped the images in their own div and use this as my styling class for the images. 
+- **Team Card Images**: The images on the team card would stretch vertically when viewed on a thin screened device, such as my iPhone XR. This is because the images were under the "card" classes 'display: flex' and 'flex-direction: column" rules. To rectify this, I wrapped the images in their own div and used this as my styling class (team-profile-image) for the images. 
 
-- **Bootstrap Console Error**: Upon loading the deployed site, Chrome DevTools showed and error in loading some Bootstrap scripts. This was because I had sequenced bootstrap scripts before jQuery scripts in the site HTML, when jQuery is a prerequisite for Boostrap functionality. To rectify this, I moved the jQuery script to the first position of HTML scripts.
+- **Bootstrap Console Error**: Upon loading the deployed site, Chrome DevTools showed an error loading some Bootstrap scripts. This was because jQuery is a prerequisite for Boostrap functionality and I was loading Bootstrap first. To rectify this, I moved the jQuery script to the first position of HTML scripts.
 
 ## Issues still to overcome
-- **Online Reservation Form**: Currently the form allows booking for the restaurant's static open hours of 12pm-10pm Monday-Sunday. However so as to allow the restaurant to open different hours on different days and also to close for certain days (e.g. christmas), the form needs to be updated so the available booking slows can be dynamically updated.
+- **Online Reservation Form**: Currently the form allows booking for the restaurant's static open hours of 12pm-10pm Monday-Sunday. However, to allow the restaurant to open different hours throughout the week and also to close for certain days (e.g. christmas), the form needs to be updated to allow dynamic updates of available times depending on date/day.
 To achieve this I would need to implement javascript to the form, which is currently outside my expertise.
-Alternatively, I'd advise the client to partner with a third party provider who provides online booking solutions such as [Opentable](https://www.opentable.co.uk/). This could then be directly embedded to the booking page, allow owners to easily update booking availability without the need of developer help and would offboard the need for future development to the third party.
+Alternatively, I'd advise the client to partner with a third party provider who provides online booking solutions such as [Opentable](https://www.opentable.co.uk/). This could then be directly embedded to the booking page, allowing the owners to easily update booking availability without the need of developer support and ensure future function stability.
