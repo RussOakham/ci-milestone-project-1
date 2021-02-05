@@ -40,15 +40,15 @@ I wanted to keep the structure simple, restricting design to 4-5 key content pag
 - Menu: Containing current menu propositions of the restaurant, allowing potential customers a view of what the restaurant offers and at what prices. Taking a transparent approach to this will increase customer loyalty.
 - Online Booking: Page to enable customers to submit table reservation requests.
 
-- [Site Map](/workspace/ci-milestone-project-1/wireframes/site-map.pdf)
+- [Site Map](wireframes/site-map.pdf)
 
 ### Skeleton
 At this point I began creating proper wireframes, considering how the User will navigate through the site, what content has priority, and interrelation of content. I used [Balsamiq](https://balsamiq.com/) to create the below wireframes:
 
- - [Home page on mobile and desktop wireframe](/workspace/ci-milestone-project-1/wireframes/home-desktop-mobile.pdf)
- - [About Us page on mobile and desktop wireframe](/workspace/ci-milestone-project-1/wireframes/about-us-desktop-mobile.pdf)
- - [Menu page on mobile and desktop wireframe](/workspace/ci-milestone-project-1/wireframes/menu-desktop-mobile.pdf)
- - [Online Reservation page on mobile and desktop wireframe](/workspace/ci-milestone-project-1/wireframes/menu-desktop-mobile.pdf)
+ - [Home page on mobile and desktop wireframe](wireframes/home-desktop-mobile.pdf)
+ - [About Us page on mobile and desktop wireframe](wireframes/about-us-desktop-mobile.pdf)
+ - [Menu page on mobile and desktop wireframe](wireframes/menu-desktop-mobile.pdf)
+ - [Online Reservation page on mobile and desktop wireframe](wireframes/menu-desktop-mobile.pdf)
 
 ### Surface
 This is the sensory design section of a website, or how it looks, feels and sounds. I wanted the design to be clean and the colour scheme to be light and refreshing. 
@@ -199,7 +199,7 @@ The following are sites I used for reference and inspiration:
 - [Backyard Chicken Company](https://www.backyardchicken.co.uk/)
 - [Randy's Wing Bar](https://randyswingbar.co.uk/)
 - Colour Selection
-    - 99 designs [https://99designs.ie/blog/tips/how-color-impacts-emotions-and-behaviors/]
+    - [99 designs](https://99designs.ie/blog/tips/how-color-impacts-emotions-and-behaviors/)
 - Menu Card Format
     - [Nandos](https://www.nandos.co.uk/food/menu/index.html)
 in solving technical issues:
