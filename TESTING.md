@@ -22,7 +22,7 @@ Screenshots for Final Validations passes can be seen below;
  - HTML:
     - [index](design-resources/testing/HTML/after/index.PNG)
     - [about us](design-resources/testing/HTML/after/about.PNG)
-    - [menu](design-resources/testing/HTML/AFTER/menu.PNG)
+    - [menu](design-resources/testing/HTML/after/menu.PNG)
     - [reservation](design-resources/testing/HTML/after/reservation.PNG)
  - CSS: [style.css](design-resources/testing/CSS/css-validation.PNG)
 
