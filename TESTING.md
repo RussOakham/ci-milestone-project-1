@@ -143,3 +143,5 @@ The generator does advise the files be placed directly into the website root, ho
 - **Online Reservation Form**: Currently the form allows booking for the restaurant's static open hours of 12pm-10pm Monday-Sunday. However, to allow the restaurant to open different hours throughout the week and also to close for certain days (e.g. christmas), the form needs to be updated to allow dynamic updates of available times depending on date/day.
 To achieve this I would need to implement javascript to the form, which is currently outside my expertise.
 Alternatively, I'd advise the client to partner with a third party provider who provides online booking solutions such as [Opentable](https://www.opentable.co.uk/). This could then be directly embedded to the booking page, allowing the owners to easily update booking availability without the need of developer support and ensure future function stability.
+
+- **Reservation Form Modal** - Add modal which would trigger on successful form submission, giving user feedback that form has been successfully submitted. For the modal to properly trigger after successful form verification, custom JavaScript will need to be written.
